@@ -1,6 +1,7 @@
 :root {
     --colorRojo: #b81e14;
     --colorGris: #92908b;
+    --colorGrisOscuro: #444444;
 }
 
 * {
@@ -22,6 +23,6 @@ ul {
 
 body {
     background-image: url('/img/bg-body.png');
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'roboto';
     margin: 0 10px;
 }
