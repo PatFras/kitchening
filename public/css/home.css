@@ -1,0 +1,44 @@
+/*HEADER*/
+.home_header {
+    text-align: center;
+}
+
+.home_header_contain {
+    margin: 15px auto 30px;
+    width: 180px;
+}
+
+.home_header_logo {
+    width: 100%;
+    border-radius: 50%;
+    border: solid 1px var(--colorGris);
+}
+
+.home_header_bars {
+    background-color: var(--colorGris);
+    color: #ffff;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.home_header_nav_menu {
+    margin-bottom: 15px;
+}
+
+.home_header_nav_menu ul li {
+    background-color: var(--colorGris);
+    text-transform: uppercase;
+    margin-bottom: 1px;
+    padding: 8px 0;
+}
+
+.home_header_nav_menu ul li:last-child {
+    margin-bottom: 0;
+}
+
+/*MAIN*/
+.home_main_section_banner {
+    display: none;
+}
