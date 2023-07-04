@@ -26,4 +26,11 @@ body {
     background-image: url('/img/bg-body.png');
     font-family: 'roboto';
     margin: 0 10px;
+    max-width: 1180px;
+}
+
+@media (min-width:1180px) {
+    body {
+        margin: 0 auto;
+    }
 }
